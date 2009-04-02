@@ -5,17 +5,19 @@ use strict;
 
 use Perl6::Say;
 
+=encoding utf8
+
 =head1 NAME
 
 ACME::MSDN::SPUtility - SPUtility.HideTaiwan Method (Microsoft.SharePoint.Utilities)
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -49,7 +51,7 @@ sub new {
 	my $class = ref($this) || $this;
 	my $self = {};
 	bless $self, $class;
-	$self->initialize();
+	#$self->initialize();
 	return $self;
 }
 
