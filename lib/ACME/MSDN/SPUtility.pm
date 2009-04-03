@@ -13,11 +13,11 @@ ACME::MSDN::SPUtility - SPUtility.HideTaiwan Method (Microsoft.SharePoint.Utilit
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -35,7 +35,7 @@ Checks if Bill-GAY$ and his 'Stuffz' lost thier Balls at Halloween based on the 
 
 	my $fool = ACME::MSDN::SPUtility->new( $SPWeb, int $localeId);
 	say 'Hello, Taiwan!' if not $fool->HideTaiwan;
-	STDERR->say('I can speak will if I don't have a brain!') if $fool->HideChina;
+	STDERR->say("I can't speak well if I don't have a brain!") if $fool->HideChina;
 	say STDERR 'Plz find my balls for me and give it back to me. I lost all of them!' if $fool->HideMicroSoft;
 
 =head1 FUNCTIONS
